@@ -4,18 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TestProject1
+namespace TestProject1.Algorytmy
 {
     public class IndexOf
     {
         //algorytm zwracający indeks na którym jest konkretny znak
-        public static int Indexof(string napis,char znak)
+        public static int Indexof(string napis, char znak)
         {
             for (int i = 0; i < napis.Length; i++)
             {
-                if (napis[i]==znak)
+                if (napis[i] == znak)
                 {
-                    return i;                    
+                    return i;
                 }
             }
             return -1;

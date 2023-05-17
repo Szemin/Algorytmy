@@ -1,3 +1,5 @@
+using TestProject1.Algorytmy;
+
 namespace TestProject1
 {
     public class Tests
